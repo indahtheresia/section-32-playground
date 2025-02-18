@@ -36,3 +36,9 @@ let people: {
   name: string;
   age: number;
 }[];
+
+// Type inference - TypeScript will automatically take the type of the value assign as the type of the variable.
+
+let course = 'React - The Complete Guide';
+
+// course = 12341;
