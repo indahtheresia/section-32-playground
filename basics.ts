@@ -40,4 +40,15 @@ let people: Person[];
 
 let course: string | number = 'React - The Complete Guide';
 
-// course = 12341;
+course = 12341;
+
+// Functions & types
+
+function add(a: number, b: number): number {
+  return a + b;
+}
+
+// This will return void (comparable with undefined, but void just assigns to functions) or in other word, it will return undefined or null.
+function printOutput(value: any) {
+  console.log(value);
+}
